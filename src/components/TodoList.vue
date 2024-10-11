@@ -18,6 +18,7 @@ const removeTask = (index) => {
 
 <template>
   <div class="todo-app">
+    <h1 class="todo-heading">Todo List App</h1>
     <div class="task-input">
       <input
         v-model="newTask"
@@ -44,6 +45,10 @@ const removeTask = (index) => {
   border: 1px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.todo-heading{
+    text-align: center;
 }
 
 .app-title {
