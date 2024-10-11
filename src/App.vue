@@ -1,8 +1,10 @@
 <script setup>
+import TodoList from './components/TodoList.vue'
 </script>
 
 <template>
-  <p>hello world</p>
+<TodoList/>
+
 </template>
 
 
