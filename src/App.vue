@@ -4,6 +4,7 @@ import RandomQuotes from "./components/RandomQuotes.vue";
 import AccordionComponent from "./components/AccordionComponent.vue";
 import FormValidation from "./components/FormValidation.vue";
 import PasswordGenerator from './components/PasswordGenerator.vue'
+import DadJokes from './components/DadJokes.vue'
 </script>
 
 <template>
@@ -11,5 +12,6 @@ import PasswordGenerator from './components/PasswordGenerator.vue'
   <!-- <RandomQuotes/> -->
   <!-- <AccordionComponent/> -->
   <!-- <FormValidation /> -->
-   <PasswordGenerator/>
+   <!-- <PasswordGenerator/> -->
+    <DadJokes/>
 </template>
